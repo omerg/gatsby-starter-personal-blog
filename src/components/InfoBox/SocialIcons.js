@@ -7,6 +7,8 @@ import config from "../../../content/meta/config";
 import GithubIcon from "!svg-react-loader!../../images/svg-icons/github.svg?name=GithubIcon";
 import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?name=FacebookIcon";
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
+import StackOverflowIcon from "!svg-react-loader!../../images/svg-icons/stack-overflow.svg?name=StackOverflowIcon";
+import HackerRankIcon from "!svg-react-loader!../../images/svg-icons/hackerRank.svg?name=HackerRankIcon";
 
 const styles = theme => ({
   social: {
@@ -35,9 +37,11 @@ const Socialcons = props => {
   const { classes } = props;
   const items = config.authorSocialLinks;
   const icons = {
-    twitter: TwitterIcon,
-    facebook: FacebookIcon,
-    github: GithubIcon
+    Twitter: TwitterIcon,
+    Facebook: FacebookIcon,
+    Github: GithubIcon,
+    StackOverflow: StackOverflowIcon,
+    HackerRank: HackerRankIcon
   };
 
   return (
