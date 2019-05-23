@@ -1,5 +1,5 @@
 ---
-title: Polymer Project ve Web Compoents
+title: Polymer Project ve Web Compoents - 1
 subTitle: Google tarafından çalışmaları devam eden Polymer Projesi
 category: "web"
 cover: Polymer_Project_logo_cover.png
@@ -23,14 +23,6 @@ Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
 - [Polymer](#polymer)
   - [Bileşen Kullanımı](#bilesen-kullanimi)
   - [Yeni Bileşen Tanımı](#yeni-bilesen-tanimi)
-- [Bileşen Kütüphanesi](#bilesen-kutuphanesi)
-- [Web Components](#web-components)
-  - [Templates](#templates)
-  - [Custom Elements](#custom-elements)
-  - [Shadow DOM](#shadow-dom)
-  - [Imports](#imports)
-- [Polymer Polyfills](#polymer-polyfills)
-- [İlgili Bağlantılar](#ilgili-baglantilar)
 
 <a name="problemi-tanimlayalim"></a>
 ### Problemi Tanımlayalım
