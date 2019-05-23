@@ -3,6 +3,5 @@ title: footnote
 ---
 
 * built by [omer gurarslan](https://www.omerg.info)
-* GatsbyJS, ReactJs, CSS in JS
-* delivered by [Netlify](https://www.netlify.com/)
+* built with React, GraphQL, CSS in JS
 * photos by [unsplash.com](https://unsplash.com)
