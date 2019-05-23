@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
+import Socialcons from "../InfoBox/SocialIcons";
 
 const styles = theme => ({
   container: {
@@ -29,7 +30,11 @@ const styles = theme => ({
 });
 
 const Footnote = ({ classes, content }) => {
-  return <div className={classes.container} dangerouslySetInnerHTML={{ __html: content }} />;
+  return (
+    <div>
+      <div className={classes.container} dangerouslySetInnerHTML={{ __html: content }} />
+      <Socialcons/>
+    </div>);
 };
 
 Footnote.propTypes = {
