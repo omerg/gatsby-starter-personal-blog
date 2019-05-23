@@ -25,7 +25,7 @@ Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
 
 Windows ortamında iseniz CygWin ya da PUTTY, Linux ve Mac OS X ortamlarında ise Terminal açılır:
 
-```console
+```bash
 Last login: Thu Apr 10 22:28:44 on ttys000
 Omers-iMac:~ omerg$
 ```
@@ -35,7 +35,7 @@ Omers-iMac:~ omerg$
 
 Bir sonraki komutun sonuçlarını okumayı kolaylaştırması için ekranı clear komutuyla temizleyelim:
 
-```console
+```bash
 Last login: Thu Apr 10 22:28:44 on ttys000
 Omers-iMac:~ omerg$ ssh omerg@dev.lucidcode.com.tr
 omerg@dev.lucidcode.com.tr's password:
@@ -59,7 +59,7 @@ Aşağıda listlenmiş komutların başına sayı ekleyerek kaç kez tekrar edil
 
 Hangi kullanıcı ile bağlandığımızı bize hatırlatır:
 
-```console
+```bash
 $ whoami
 omerg
 $
@@ -70,7 +70,7 @@ $
 
 Makinanın ismini yazar:
 
-```
+```bash
 $ hostname
 tolvanen
 $
@@ -81,7 +81,7 @@ $
 
 Ortam değişkenlerini bildirir:
 
-```
+```bash
 $ env
 MAIL=/var/mail/omerg
 USER=omerg
@@ -106,7 +106,7 @@ $
 
 Üzerinde olunan dizini belirtir (Print Working Directory):
 
-```
+```bash
 $ pwd
 /home/omerg
 $
@@ -117,7 +117,7 @@ $
 
 Üzerinde olunan dizindeki dosyaları listeler (List)
 
-```
+```bash
 $ ls
 $
 ```
@@ -142,7 +142,7 @@ Dizin değiştirmeye yarar. (Change Directory)
 
 Bir önceki dizine gitme için cd .. komutu girilir:
 
-```
+```bash
 $ pwd
 /home/omerg
 $ cd ..
@@ -153,7 +153,7 @@ $
 
 İstenilen dizine gitmek için cd komutu aşağıdaki gibi kullanılır:
 
-```
+```bash
 $ pwd
 /home
 $ cd omerg
@@ -167,7 +167,7 @@ $
 
 Yeni dosya yaratır:
 
-```console
+```bash
 $ pwd
 /home/omerg
 $ ls
@@ -186,7 +186,7 @@ Eğer vim komutu sistemde bulunamadıysa Vim Text Editor sistemde kurulu değil 
 
 Kurulum yapabilmek için Super User yetkilerine sahip omak gerekir. Bu yüzden sudo ön eki kullanılır:
 
-```
+```bash
 $ sudo apt-get install vim
   
 We trust you have received the usual lecture from the local System
@@ -201,7 +201,7 @@ Administrator. It usually boils down to these three things:
 
 Şifre girilir ve kurulum komutu verilir:
 
-```
+```bash
 [sudo] password for omerg:
 Reading package lists... Done
 Building dependency tree      
@@ -213,7 +213,7 @@ $
 
 Vim Text Editörünü kullanmaya başlayalım:
 
-```
+```bash
 $ ls
 newFile
 $ vim newFile
@@ -221,7 +221,7 @@ $ vim newFile
 
 İlgili dosya görüntüleme modunda açılır. Görüntüleme modunda içerikte değişiklik yapılamaz:
 
-```
+```vim
 ~                                                                              
 ~                                                                              
 ~                                                                              
@@ -246,7 +246,7 @@ $ vim newFile
 
 İçerikte değişiklik yapabilmek için "i" karakterine basılır ve "insert mode" açılmış olur:
 
-```
+```vim
 ~                                                                              
 ~                                                                              
 ~                                                                              
