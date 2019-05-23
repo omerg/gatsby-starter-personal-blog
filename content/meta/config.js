@@ -25,9 +25,10 @@ module.exports = {
   contactEmail: "omerg@lucidcode.com.tr",
   // social
   authorSocialLinks: [
+    { name: "LinkedIn", url: "https://linkedin.com/in/gurarslan" },
     { name: "Github", url: "https://github.com/omerg" },
     { name: "Twitter", url: "https://twitter.com/Gurarslan" },
-    //{ name: "facebook", url: "https://facebook.com/gurarslan" },
+    { name: "Facebook", url: "https://facebook.com/gurarslan" },
     { name: "StackOverflow", url: "https://stackoverflow.com/users/2756243/omer-gurarslan" },
     { name: "HackerRank", url: "https://www.hackerrank.com/omerg" }
   ]

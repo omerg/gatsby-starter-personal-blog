@@ -29,7 +29,7 @@ Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
 
 Bir dosyanın ismini veya yerini değiştirmek için kullanılır:
 
-```
+```bash
 $ ls
 newFile
 $ mv newFile newFileRenamed
@@ -43,7 +43,7 @@ $
 
 Bir dosyayı bir yerden bir yere kopyalamaya yarar:
 
-```
+```bash
 $ ls
 newFileRenamed
 $ cp newFileRenamed copyOfFile
@@ -57,7 +57,7 @@ $
 
 Dosya silme komutudur:
 
-```
+```bash
 $ ls
 copyOfFile  newFileRenamed
 $ rm newFileRenamed
@@ -71,7 +71,7 @@ $
 
 Yeni dizin yaratır (Make Directory)
 
-```
+```bash
 $ ls
 copyOfFile
 $  mkdir newFileDir
@@ -82,7 +82,7 @@ $
 
 Yeni yarattığımız dizini silmek istediğimizde rm komutuyla ilgili yeni bir bilgi öğreniyoruz:
 
-```
+```bash
 $ ls
 copyOfFile  newFileDir
 $ rm copyOfFile
@@ -108,7 +108,7 @@ $
 
 Dosyaları .zip formatında sıkıştırmak için kullanılır:
 
-```
+```bash
 $ ls
 $ touch a #dosya yaratır
 $ ls
@@ -125,7 +125,7 @@ $
 
 Sıkıştırılmış zip dosyalarını açmak için kullanılır:
 
-```
+```bash
 $ ls
 a  a.zip
 $ rm a
@@ -146,7 +146,7 @@ Linux platformlarında daha yaygın olan .tgz ve tar.gz formatındaki sıkışt�
 
 Varolan bir açık (sıkıştırılmamış) dosyayı sıkıştırmak için tar komutunu -zcvf argumanı ile kullanın:
 
-```
+```bash
 $ ls
 a  a.zip
 $ tar -zcvf a.tar.gz a
@@ -158,8 +158,7 @@ $
 
 Varolan sıkıştırılmış dosyayı açmak için -xzvf argumanını kullanın:
 
-```
-
+```bash
 $ ls
 a  a.tar.gz  a.zip
 $ rm a
@@ -177,7 +176,7 @@ $
 
 Verilen Web adresindeki dosyayı indirir:
 
-```
+```bash
 $ wget http://download.thinkbroadband.com/5MB.zip
 ```
 
@@ -186,7 +185,7 @@ $ wget http://download.thinkbroadband.com/5MB.zip
 
 SSH ile bağlanılmışsa bağlantıyı koparır. SSH bağlantısı yoksa terminali kapatır:
 
-```
+```bash
 $ exit
 Connection to dev.lucidcode.com.tr closed.
 Omers-iMac:~ omerg$
@@ -199,8 +198,7 @@ Debian Linux dağıtımlarına özgü paket yöneticisidir. Yeni uygulamalar bul
 
 Örneğin bağlı olunan uygulama Repository'sindeki uygulamalar arasında ismi içinde 'text' olanları arayalım:
 
-```
-
+```bash
 $ aptitude search text
 p   alsaplayer-text                 - PCM player designed for ALSA (text version
 p   bible-kjv-text                  - King James Version of the Bible - text and
@@ -216,7 +214,7 @@ p   docbook-xsl-doc-text            - stylesheets
 
 Listede gördüğümüz 'dev-text' uygulamasını indirmek istediğimizde birmesajla karşılaşacağız:
 
-```
+```bash
 $ apt-get install dev-text
 E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
@@ -226,7 +224,7 @@ $
 apt-get install komutu sistem üzerinde kurulum yapmak üzere çalışan bir komut olduğundan, Super User (su) yetkisi gerektirmektedir. Linux platformlarında herhangi bir komutu 'sudoers' yetkisiyle çalıştırmak için başına 'sudo' eki eklenir:
 
 
-```
+```bash
 $ sudo apt-get install dev-text
 ```
 
@@ -234,7 +232,7 @@ $ sudo apt-get install dev-text
 
 apt-get install komutu sudo ekiyle tekrar çalıştırılır:
 
-```
+```bash
 $ apt-get install dev-text
 [sudo] password for omerg:
 ```
