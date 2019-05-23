@@ -1,5 +1,5 @@
 ---
-title: Temel Linux Shell Komutları ( 2. Bölüm )
+title: Temel Linux Shell Komutları - 2
 subTitle: UNIX temelli işletim sistemlerini etkin biçimde kullanabilmeniz için gerekli olan komutlar
 category: "linux"
 cover: simon-abrams-286276-unsplash-cover.jpg
