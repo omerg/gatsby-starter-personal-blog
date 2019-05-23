@@ -52,16 +52,10 @@ const StackIcons = props => {
   const { classes } = props;
 
   const items = [
-    { name: "gatsby", url: "https://www.gatsbyjs.org/", comp: GatsbyIcon },
-    { name: "react", url: "https://reactjs.org/", comp: ReactIcon },
-    { name: "graphql", url: "http://graphql.org/", comp: GraphqlIcon },
-    { name: "jss", url: "http://cssinjs.org/", comp: JssIcon },
-    { name: "material-ui", url: "https://material-ui-next.com/", comp: MaterialUiIcon },
-    { name: "redux", url: "https://redux.js.org/", comp: ReduxIcon },
-    { name: "algolia", url: "https://www.algolia.com/", comp: AlgoliaIcon },
-    { name: "webpack", url: "https://webpack.js.org/", comp: WebpackIcon },
-    { name: "babel", url: "https://babeljs.io/", comp: BabelIcon },
-    { name: "netlify", url: "https://www.netlify.com/", comp: NetlifyIcon }
+    { name: "React", url: "https://reactjs.org/", comp: ReactIcon },
+    { name: "GraphQL", url: "http://graphql.org/", comp: GraphqlIcon },
+    { name: "CSS & JavaScript", url: "http://cssinjs.org/", comp: JssIcon },
+    { name: "WebPack", url: "https://webpack.js.org/", comp: WebpackIcon },
   ];
 
   return (
