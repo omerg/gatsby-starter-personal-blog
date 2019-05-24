@@ -5,7 +5,7 @@ category: "web"
 cover: Polymer_Project_logo_cover.png
 ---
 
-# Polymer Project ve Web Compoents
+# Polymer Project ve Web Components
 
 "Geleceğe Hoşgeldiniz."
 
