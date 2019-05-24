@@ -5,8 +5,6 @@ category: "linux"
 cover: sai-kiran-anagani-555972-unsplash-cover.jpg
 ---
 
-# vim komut rehberi
-
 UNIX ortamında metin inceleme ve düzenleme söz konusu olduğunda bilinmesi gereken en önemli şeylerden biri de metin içerisinde ve metinler arasında etkin bir şekilde gezinebilmektir.
 
 ![unsplash.com](./sai-kiran-anagani-555972-unsplash.jpg)

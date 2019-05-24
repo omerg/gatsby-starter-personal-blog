@@ -5,8 +5,6 @@ category: "web"
 cover: Polymer_Project_logo_cover.png
 ---
 
-# Polymer Project ve Web Components
-
 "Geleceğe Hoşgeldiniz."
 
 Google tarafından çalışmaları devam eden Polymer Projesi'nin Web Sayfasındaki ilk cümle, projenin iddialı oluşuyla birlikte aslında projenin en temel motivasyonunu bize anltıyor: World Wide Web Consortium (W3C) tarafından taslak olarak yayınlanan Web Components Modeli'ni uygulamak ve yaygınlaştırmak. (W3C'de bunları kim yazıyor derseniz, yine Google çalışanları :blush: )
