@@ -5,7 +5,7 @@ category: "web"
 cover: Polymer_Project_logo_cover.png
 ---
 
-# Polymer Project ve Web Compoents - 2
+# Polymer Project ve Web Components - 2
 
 Polymer Projesi ve Web Components teknolojilerini incelediğim yazıma 2. bölümüyle devam ediyorum:
 
