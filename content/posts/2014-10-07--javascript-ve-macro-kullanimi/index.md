@@ -188,3 +188,10 @@ Bu arada örnekler ilginizi çektiyse daha fazla Makro örneğini inceleyebilirs
  - https://mail.mozilla.org/pipermail/es-discuss/2008-August/006837.html
  - http://www.okanakyuz.com/lisp-notlari-giris/
  - http://blog.fatihak.in/sweet-js-ile-javascript-macrolar-a-giris/
+
+
+<a name="ilginizi-cekebilecek-diger-konular"></a>
+##### İlginizi Çekebilecek Diğer Konular
+
+ - https://github.com/Gozala/wisp
+ - [StackOverflow - What is the worst real-world macros/pre-processor abuse you've ever come across?](http://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across)
