@@ -5,8 +5,6 @@ category: "javascript"
 cover: js-cover.png
 ---
 
-# JavaScript ve Macro Kullanımı
-
 ![Sweets](./patrick-fore-389419-unsplash.jpg)
 
 ### Giriş

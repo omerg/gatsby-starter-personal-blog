@@ -5,8 +5,6 @@ category: "linux"
 cover: simon-abrams-286276-unsplash-cover.jpg
 ---
 
-# Temel Linux Shell Komutları ( 1. Bölüm )
-
 Bu yazımda UNIX temelli işletim sistemlerini etkin biçimde kullanabilmeniz için gerekli olan komutları anlatacağım.
 
 ![unsplash.com](./simon-abrams-286276-unsplash.jpg)
