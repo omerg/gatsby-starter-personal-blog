@@ -28,6 +28,7 @@ module.exports = {
     { name: "LinkedIn", url: "https://linkedin.com/in/gurarslan" },
     { name: "Github", url: "https://github.com/omerg" },
     { name: "Twitter", url: "https://twitter.com/Gurarslan" },
+    { name: "Youtube", url: "https://www.youtube.com/channel/UC0jmZwUcGbCOAzirbRssQbA" },
     { name: "Facebook", url: "https://facebook.com/gurarslan" },
     { name: "StackOverflow", url: "https://stackoverflow.com/users/2756243/omer-gurarslan" },
     { name: "HackerRank", url: "https://www.hackerrank.com/omerg" }
