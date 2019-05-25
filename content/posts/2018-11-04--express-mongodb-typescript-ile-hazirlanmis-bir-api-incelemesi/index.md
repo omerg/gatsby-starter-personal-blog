@@ -11,7 +11,7 @@ Bu videoda TypeScript , Express ve Node ile basit ve çalıştırmaya hazır bir
 
 Videoda incelenen proje: https://github.com/omerg/express-mongodb-base
 
-Videoda değinilen bazı teknolojiler ve ürünler:
+##### Videoda değinilen bazı teknolojiler ve ürünler:
 
 - TypeScript
 - Mongoose
