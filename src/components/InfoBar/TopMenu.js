@@ -111,6 +111,11 @@ class TopMenu extends React.Component {
                         Contact
                       </MenuItem>
                     </Link>
+                    <a href="https://drive.google.com/uc?export=download&id=1EYHnjHWAEeRD2n5aA4obUkB6HxMG1jUH" style={{ display: "block" }}>
+                      <MenuItem>
+                        Download CV
+                      </MenuItem>
+                    </a>
                   </MenuList>
                 </Paper>
               </Grow>

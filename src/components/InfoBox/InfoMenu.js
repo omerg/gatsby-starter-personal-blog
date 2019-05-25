@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
 import Link from "gatsby-link";
+import MenuItem from '@material-ui/core/MenuItem';
 
 const styles = theme => ({
   infoMenu: {
@@ -45,6 +46,9 @@ const InfoMenu = props => {
       <Link to="/contact/" onClick={linkOnClick} className={classes.link} data-shape="closed">
         Contact
       </Link>
+      <a href="https://drive.google.com/uc?export=download&id=1EYHnjHWAEeRD2n5aA4obUkB6HxMG1jUH" className={classes.link}>
+          Download CV
+      </a>
     </nav>
   );
 };
