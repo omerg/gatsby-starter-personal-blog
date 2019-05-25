@@ -10,6 +10,7 @@ import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
 import StackOverflowIcon from "!svg-react-loader!../../images/svg-icons/stack-overflow.svg?name=StackOverflowIcon";
 import HackerRankIcon from "!svg-react-loader!../../images/svg-icons/hackerRank.svg?name=HackerRankIcon";
+import YoutubeIcon from "!svg-react-loader!../../images/svg-icons/youtube.svg?name=YoutubeIcon";
 
 const styles = theme => ({
   social: {
@@ -43,7 +44,8 @@ const Socialcons = props => {
      Facebook: FacebookIcon,
     Github: GithubIcon,
     StackOverflow: StackOverflowIcon,
-    HackerRank: HackerRankIcon
+    HackerRank: HackerRankIcon,
+    Youtube: YoutubeIcon
   };
 
   return (
