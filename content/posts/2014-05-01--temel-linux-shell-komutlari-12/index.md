@@ -1,15 +1,15 @@
 ---
-title: Temel Linux Shell Komutları - 1
-subTitle: UNIX temelli işletim sistemlerini etkin biçimde kullanabilmeniz için gerekli olan komutlar
+title: Basic Linux Shell Commands - 1
+subTitle: Commands required to use UNIX-based operating systems effectively
 category: "linux"
 cover: simon-abrams-286276-unsplash-cover.jpg
 ---
 
-Bu yazımda UNIX temelli işletim sistemlerini etkin biçimde kullanabilmeniz için gerekli olan komutları anlatacağım.
+In this article, I will describe the commands that are necessary for you to use UNIX-based operating systems effectively.
 
 ![unsplash.com](./simon-abrams-286276-unsplash.jpg)
 
-Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
+The commands listed below will be described with example usages:
 
 - [clear](#clear)
 - [whoami](#whoami)
@@ -21,7 +21,7 @@ Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
 - [touch](#touch)
 - [vim](#vim)
 
-Windows ortamında iseniz CygWin ya da PUTTY, Linux ve Mac OS X ortamlarında ise Terminal açılır:
+First, launch your command shell. If you are in a Windows environment, this will be CygWin or PUTTY. On Linux and Mac OS X environments it is the terminal:
 
 ```bash
 Last login: Thu Apr 10 22:28:44 on ttys000
@@ -31,7 +31,7 @@ Omers-iMac:~ omerg$
 <a name="clear"></a>
 ### clear
 
-Bir sonraki komutun sonuçlarını okumayı kolaylaştırması için ekranı clear komutuyla temizleyelim:
+Let's clear the screen with the clear command to make it easier to read the results of the next command:
 
 ```bash
 Last login: Thu Apr 10 22:28:44 on ttys000
@@ -48,14 +48,12 @@ permitted by applicable law.
 $ clear
  ```
  
-Ekran temizlendi.
-
-Aşağıda listlenmiş komutların başına sayı ekleyerek kaç kez tekrar edilmesi  gerektiğini belirtebilirsiniz. (Örnek: 4j komutu ile 4 satır aşağı inebilirsiniz.)
+The screen is cleared.
 
 <a name="whoami"></a>
 ### whoami
 
-Hangi kullanıcı ile bağlandığımızı bize hatırlatır:
+Reminds us which user we're connected with:
 
 ```bash
 $ whoami
@@ -66,7 +64,7 @@ $
 <a name="hostname"></a>
 ### hostname
 
-Makinanın ismini yazar:
+Prints the name of the machine:
 
 ```bash
 $ hostname
@@ -77,7 +75,7 @@ $
 <a name="env"></a>
 ### env
 
-Ortam değişkenlerini bildirir:
+Displays the values of the environment variables:
 
 ```bash
 $ env
@@ -102,7 +100,7 @@ $
 <a name="pwd"></a>
 ### pwd
 
-Üzerinde olunan dizini belirtir (Print Working Directory):
+Shows the name of the current directory (Print Working Directory):
 
 ```bash
 $ pwd
@@ -113,32 +111,33 @@ $
 <a name="ls"></a>
 ### ls
 
-Üzerinde olunan dizindeki dosyaları listeler (List)
+Lists the files in the current directory:
 
 ```bash
 $ ls
 $
 ```
 
-Gizli dosyalari görmek için ls -a komutu kullanılır:
+The ls -a command is used to see hidden files:
+
 ```
 $ ls -a
 .  ..  .bash_logout  .bashrc  .profile
 $
 ```
 
->ls komuru için faydalı argumanlar:
+> Some useful arguments for ls:
 > 
-> - ls -a -> Gizli dosyaları görüntüler
-> - ls -l > Tüm dosyaları detay bilgileriyle alt alta listeler (Gizli dosyalar için ls -a -l )
-> - ls -l --color Tüm dosyaları alt alta renkli olarak listeler
+> - `ls -a` : Displays hidden files
+> - `ls -l` : List all files at the bottom of the detail information (`ls -a -l` for hidden files)
+> -  `ls -l --color` : List all files in color
 
 <a name="cd"></a>
 ### cd
 
-Dizin değiştirmeye yarar. (Change Directory)
+Changes current directory
 
-Bir önceki dizine gitme için cd .. komutu girilir:
+Enter the cd .. command to go to the previous directory:
 
 ```bash
 $ pwd
@@ -149,7 +148,7 @@ $ pwd
 $
 ```
 
-İstenilen dizine gitmek için cd komutu aşağıdaki gibi kullanılır:
+To go to the desired directory, the cd command is used as follows:
 
 ```bash
 $ pwd
@@ -163,7 +162,7 @@ $
 <a name="touch"></a>
 ### touch
 
-Yeni dosya yaratır:
+Creates a new file:
 
 ```bash
 $ pwd
@@ -178,11 +177,11 @@ $
 <a name="vim"></a>
 ### vim
 
-Linux ortamında yaygın olarak kullanılan Text Editor'dur.
+Vim is a commonly used Text Editor in the Linux environment.
 
-Eğer vim komutu sistemde bulunamadıysa Vim Text Editor sistemde kurulu değil demektir. Bu durumda Vim programını indirmek için apt-get komutunu kullanabilirsiniz. Linux Debian sürümlerinde apt-get paket yöneticisi istenilen araçları sisteme kurar ve ayarlarını yapar.
+If the Vim command is not found in the system, this means that Vim Text Editor is not installed in the system. In this case you can use the apt-get command to download the Vim program. In Linux Debian distributions, the apt-get package manager installs and configures the required tools on the system.
 
-Kurulum yapabilmek için Super User yetkilerine sahip omak gerekir. Bu yüzden sudo ön eki kullanılır:
+To be able to install, you need to have Super User privileges. So the sudo prefix is ​​used:
 
 ```bash
 $ sudo apt-get install vim
@@ -197,7 +196,7 @@ Administrator. It usually boils down to these three things:
 [sudo] password for omerg: 
 ```
 
-Şifre girilir ve kurulum komutu verilir:
+The password is entered and setup command is executed:
 
 ```bash
 [sudo] password for omerg:
@@ -209,7 +208,7 @@ vim is already the newest version.
 $
 ```
 
-Vim Text Editörünü kullanmaya başlayalım:
+Let's start using Vim Text Editor:
 
 ```bash
 $ ls
@@ -217,7 +216,7 @@ newFile
 $ vim newFile
 ```
 
-İlgili dosya görüntüleme modunda açılır. Görüntüleme modunda içerikte değişiklik yapılamaz:
+The corresponding file opens in view mode. Content cannot be modified in view mode:
 
 ```vim
 ~                                                                              
@@ -242,7 +241,7 @@ $ vim newFile
 "newFile" 0L, 0C                                              0,0-1         All
 ```
 
-İçerikte değişiklik yapabilmek için "i" karakterine basılır ve "insert mode" açılmış olur:
+To make changes to the content, press "i" and "insert mode" is opened:
 
 ```vim
 ~                                                                              
@@ -267,13 +266,14 @@ $ vim newFile
 -- INSERT --                                                  1,1           All
 ```
 
-Aşağıdaki komutlar Vim Text editörü ile temel dosya güncelleme işlemlerini gerçekleştirebilmeniz için yeterlidir:
+The following commands are often enough to perform basic file update with Vim Text editor:
 
-
-| Komut         |                     Açıklama                  | 
+| Command       |                     Description               | 
 | ------------- |:---------------------------------------------:| 
-| Esc           | Insert modunu kapatır. Diğer tüm komutların çalışması için ve dosyayı kapatmak için gereklidir. | 
-| :             | Komut giriş modunu açar.                      | 
-| w             | Değişiklikleri kaydeder.                      | 
-| q             | Vim'i kapatır. (Eğer kaydedilmemiş değişiklilk varsa uyarı verir)| 
-| q!            | Değişiklikleri kaydetmeden Vim'i kapatır.     | 
+| Esc           | Turns off the Insert mode. All other commands are required to work and to close the file. | 
+| :             | Opens the command input mode.                 | 
+| w             | Saves Changes                                 | 
+| q             | He closes Vim. (A blocking warning is shown if there are unsaved changes)| 
+| q!            | Closes Vim without saving changes.            | 
+
+Congratulations for being here :) [In the next post](/temel-linux-shell-komutlari-22/), I will be showing you the essential commands for file manipulation.
