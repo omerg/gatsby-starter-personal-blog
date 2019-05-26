@@ -25,7 +25,7 @@ Boxlin helps users to draw their own houses in 3D and decorate their interiors w
 
 ![STSI App](./stsi_project.png)
 
-STSI Holding is an international first-quality and secondary steel trading company based in Switzerland. Their web application allows them to manage email campaigns, create smart offers which take client’s location, transporting costs and material quality preferences into consideration. The project is still getting developed for extra features.
+STSI Holding is an international first-quality and secondary steel trading company based in Switzerland. Their web application allows them to manage email campaigns, create smart offers which take client’s location, transporting costs and material quality preferences. The project is still getting developed for extra features.
 
 ## Anaokulum (My Kindergarten)
 
