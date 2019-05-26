@@ -1,17 +1,17 @@
 ---
-title: Temel Linux Shell Komutları - 2
-subTitle: UNIX temelli işletim sistemlerini etkin biçimde kullanabilmeniz için gerekli olan komutlar
+title: Basic Linux Shell Commands - 2
+subTitle: Commands required to use UNIX-based operating systems effectively
 category: "linux"
 cover: simon-abrams-286276-unsplash-cover.jpg
 ---
 
-# Temel Linux Shell Komutları ( 2. Bölüm )
+We continue to examine the commands needed to use UNIX-based operating systems effectively. [In the previous post](/temel-linux-shell-komutlari-12/), we looked at the most essential file system navigation commands. We also looked at basic vim commands.
 
-UNIX temelli işletim sistemlerini etkin biçimde kullanabilmeniz için gerekli olan komutları anlattığım yazıya kaldığımız yerden devam ediyoruz.
+In this post, I will be showing a few more commands for file manipulation.
 
 ![unsplash.com](./simon-abrams-286276-unsplash.jpg)
 
-Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
+The commands listed below will be described with example usages:
 
 - [mv](#mv)
 - [cp](#cp)
@@ -27,7 +27,7 @@ Aşağıda listelenmiş olan kısayollar size bunu sağlayacaktır:
 <a name="mv"></a>
 ### mv
 
-Bir dosyanın ismini veya yerini değiştirmek için kullanılır:
+Used to change the name or location of a file:
 
 ```bash
 $ ls
@@ -41,7 +41,7 @@ $
 <a name="cp"></a>
 ### cp
 
-Bir dosyayı bir yerden bir yere kopyalamaya yarar:
+Used to copy a file from one place to another:
 
 ```bash
 $ ls
@@ -55,7 +55,7 @@ $
 <a name="rm"></a>
 ### rm
 
-Dosya silme komutudur:
+The file delete command:
 
 ```bash
 $ ls
@@ -69,7 +69,7 @@ $
 <a name="mkdir"></a>
 ### mkdir
 
-Yeni dizin yaratır (Make Directory)
+Creates a new directory (Make Directory)
 
 ```bash
 $ ls
@@ -80,7 +80,7 @@ copyOfFile  newFileDir
 $
 ```
 
-Yeni yarattığımız dizini silmek istediğimizde rm komutuyla ilgili yeni bir bilgi öğreniyoruz:
+When we want to delete the newly created directory, we learn a new information about the rm command:
 
 ```bash
 $ ls
@@ -93,7 +93,7 @@ rm: cannot remove `newFileDir': Is a directory
 $
 ```
 
-Dosya silmek için rm komutu yeterli olurken, dizin silmek için rm -rf komutu kullanılır. (f: force r: recursive)
+The rm command is sufficient to delete a file. For deleting a directory however, rm -rf command is used. (f: force r: recursive)
 
 ```
 $ ls
@@ -106,7 +106,7 @@ $
 <a name="zip"></a>
 ### zip
 
-Dosyaları .zip formatında sıkıştırmak için kullanılır:
+Used to compress files in .zip format:
 
 ```bash
 $ ls
@@ -123,7 +123,7 @@ $
 <a name="unzip"></a>
 ### unzip
 
-Sıkıştırılmış zip dosyalarını açmak için kullanılır:
+Used to open zipped files:
 
 ```bash
 $ ls
@@ -142,9 +142,9 @@ $
 <a name="tar"></a>
 ### tar
 
-Linux platformlarında daha yaygın olan .tgz ve tar.gz formatındaki sıkıştırılmış dosyaları açmak için kullanılır.
+It is used to open compressed files in .tgz and tar.gz format which are more common on Linux platforms.
 
-Varolan bir açık (sıkıştırılmamış) dosyayı sıkıştırmak için tar komutunu -zcvf argumanı ile kullanın:
+To compress an existing open (uncompressed) file, use the tar command with the -zcvf argument:
 
 ```bash
 $ ls
@@ -156,7 +156,7 @@ a  a.tar.gz  a.zip
 $
 ```
 
-Varolan sıkıştırılmış dosyayı açmak için -xzvf argumanını kullanın:
+Use the -xzvf argument to open an existing compressed file:
 
 ```bash
 $ ls
@@ -174,7 +174,7 @@ $
 <a name="wget"></a>
 ### wget
 
-Verilen Web adresindeki dosyayı indirir:
+Downloads the file at the given Web address:
 
 ```bash
 $ wget http://download.thinkbroadband.com/5MB.zip
@@ -183,7 +183,7 @@ $ wget http://download.thinkbroadband.com/5MB.zip
 <a name="exit"></a>
 ### exit
 
-SSH ile bağlanılmışsa bağlantıyı koparır. SSH bağlantısı yoksa terminali kapatır:
+If it is a session connected via SSH, it breaks the connection. If there is no SSH connection, the terminal closes:
 
 ```bash
 $ exit
@@ -194,9 +194,9 @@ Omers-iMac:~ omerg$
 <a name="apt-get"></a>
 ### aptitude / apt-get
 
-Debian Linux dağıtımlarına özgü paket yöneticisidir. Yeni uygulamalar bulmanızı ve sistteme kurmanızı sağlar.
+apt-get is a package manager for Debian Linux distributions. It allows you to find and install new applications.
 
-Örneğin bağlı olunan uygulama Repository'sindeki uygulamalar arasında ismi içinde 'text' olanları arayalım:
+For example, lets go to app repository and search for apps whose name includes 'text' within their name:
 
 ```bash
 $ aptitude search text
@@ -212,7 +212,7 @@ p   doc-linux-ja-text               - Linux HOWTOs and FAQs in Japanese (TEXT fo
 p   docbook-xsl-doc-text            - stylesheets
 ```
 
-Listede gördüğümüz 'dev-text' uygulamasını indirmek istediğimizde birmesajla karşılaşacağız:
+We will see a message when we want to download 'dev-text' application:
 
 ```bash
 $ apt-get install dev-text
@@ -221,18 +221,19 @@ E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
 $
 ```
 
-apt-get install komutu sistem üzerinde kurulum yapmak üzere çalışan bir komut olduğundan, Super User (su) yetkisi gerektirmektedir. Linux platformlarında herhangi bir komutu 'sudoers' yetkisiyle çalıştırmak için başına 'sudo' eki eklenir:
-
+The apt-get install command requires Super User authorization because it is a command that makes modifications on the system. To run any command on Linux platforms with 'sudoers' authority, the 'sudo' suffix is ​​added:
 
 ```bash
 $ sudo apt-get install dev-text
 ```
 
->sudo ekini kullanarak komut tetiklemek için ilgili kullanıcının 'sudoers' yetkisine sahip olması gerekmektedir. Yetkiyi admin kullanıcısı verir.
+> To trigger a command by using the sudo attachment, the user must have 'sudoers' privilege. The admin user gives the privilege.
 
-apt-get install komutu sudo ekiyle tekrar çalıştırılır:
+The apt-get install command is run again with the sudo attachment:
 
 ```bash
 $ apt-get install dev-text
 [sudo] password for omerg:
 ```
+
+Congratulations! Now you are familiar with the most commonly used Linux Shell Commands.
