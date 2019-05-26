@@ -49,7 +49,7 @@ Anaokulum is designed for parents and kindergarten teachers to easily communicat
 
 A contract-based project built for Yapi Kredi Treasury Department. The application helps back-office, middle-office and front-office staff to set price, rediscount, create portfolios, define counterparties for inter-bank trading of fixed income securities such as bonds.
 
-##Z WhoWho
+## WhoWho
 
 *2014 | Side Project*
 
