@@ -99,8 +99,3 @@ In the meantime, if you are interested in examples, you can review more Macros:
  - http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables
  - https://mail.mozilla.org/pipermail/es-discuss/2008-August/006837.html
  - https://github.com/Gozala/wisp
-
-<a name="fun-stuff"></a>
-##### Fun Stuff
-
- - [StackOverflow - What is the worst real-world macros/pre-processor abuse you've ever come across?](http://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across)

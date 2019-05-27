@@ -29,6 +29,7 @@ And what about macros when it comes to JavaScript? Is it possible that macros ca
  - [A Little Bit of History](#a-little-bit-of-history)
  - [A Simple Macro](#a-simple-macro)
  - [Further Reading](#further-reading)
+ - [Fun Stuff](#fun-stuff)
  
  <a name="proper-usage-of-macros"></a>
  ### Proper Usage of Macros
@@ -106,3 +107,8 @@ With this simple example, we are now familiar with the JavaScirpt macro's. Macro
  - https://github.com/mozilla/sweet.js/wiki/Example-macros
  - http://sweetjs.org/browser/editor.html
  - http://www.paulgraham.com/onlisp.html
+
+<a name="fun-stuff"></a>
+##### Fun Stuff
+
+ - [StackOverflow - What is the worst real-world macros/pre-processor abuse you've ever come across?](http://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across)
