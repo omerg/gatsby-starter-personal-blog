@@ -96,11 +96,11 @@ Console:
 
 I think sweet.js is an extremely powerful tool and, frankly, when I first saw it, I had the feeling that macros could give direction to the future for JavaScript. 
 
-Macro Hygiene, which comes up with the concept of Macro, and the use of a macro to replace Google Closure Compiler and similar compilers can be mentioned in another article.
+[Macro Hygiene](http://en.wikipedia.org/wiki/Hygienic_macro), which comes up with the concept of Macro, and the use of a macro to replace Google Closure Compiler and similar compilers can be mentioned in another article.
 
 In the meantime, if you are interested in examples, you can review more Macros:
 
-> *(I highly recommend the macro Randomly Disappearing Code Random macro example, which is made entirely for fun. :smiley: )*
+> *(I highly recommend the macro [Randomly Disappearing Code](https://gist.github.com/Nami-Doc/95e8334830aced6d1e52) Random macro example, which is made entirely for fun. :smiley: )*
 
  <a name="further-reading"></a>
 ### Further Reading
