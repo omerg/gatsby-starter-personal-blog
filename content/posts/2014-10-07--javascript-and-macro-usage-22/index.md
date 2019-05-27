@@ -94,13 +94,6 @@ In the meantime, if you are interested in examples, you can review more Macros:
  <a name="further-reading"></a>
 ### Further Reading
 
- - http://sweetjs.org/
- - https://github.com/mozilla/sweet.js
- - [Stop Writing JavaScript Compilers! Make Macros Instead](http://jlongster.com/Stop-Writing-JavaScript-Compilers--Make-Macros-Instead)
- - http://disnetdev.com/blog/2012/12/20/how-to-read-macros/
- - https://github.com/mozilla/sweet.js/wiki/Example-macros
- - http://sweetjs.org/browser/editor.html
- - http://www.paulgraham.com/onlisp.html
  - http://en.wikipedia.org/wiki/Hygienic_macro
  - http://jlongster.com/Writing-Your-First-Sweet.js-Macro
  - http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables
