@@ -276,4 +276,4 @@ The following commands are often enough to perform basic file update with Vim Te
 | q             | He closes Vim. (A blocking warning is shown if there are unsaved changes)| 
 | q!            | Closes Vim without saving changes.            | 
 
-Congratulations for being here :) [In the next post](/temel-linux-shell-komutlari-22/), I will be showing you the essential commands for file manipulation.
+Congratulations for being here :) [In the next post](/basic-linux-shell-commands-22/), I will be showing you the essential commands for file manipulation.

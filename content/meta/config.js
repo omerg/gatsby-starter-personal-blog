@@ -5,7 +5,7 @@ module.exports = {
   shortSiteTitle: "Omer Gurarslan - 2019", // <title> ending for posts and pages
   siteDescription: "Omer Gurarslan's Personal Blog",
   siteUrl: "https://omerg.info",
-  pathPrefix: "",
+  pathPrefix: "blog",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
