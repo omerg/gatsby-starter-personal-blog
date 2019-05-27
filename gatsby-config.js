@@ -9,9 +9,7 @@ const query = `{
         fields {
           slug
         }
-        internal {
-          content
-        }
+        excerpt(pruneLength: 5000)
         frontmatter {
           title
           subTitle
