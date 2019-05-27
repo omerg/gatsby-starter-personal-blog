@@ -1,6 +1,6 @@
 ---
-title: Cucumber ile Behavior Driven Development - 1
-subTitle: BDD Test yaklaşımını Cucumber üzerinden inceliyoruz.
+title: Behavior Driven Development with Cucumber - 1
+subTitle: Let's examine the BDD test approach together with Cucumber.
 category: "testing"
 cover: cucumber_logo.jpg
 ---
