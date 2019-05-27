@@ -90,7 +90,7 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0":
   version "7.4.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
   integrity sha512-TuI4qpWZP6lGOGIuGWtp9sPluqYICmbk8T/1vpSysqJxRPkudh/ofFWyqdcMsDf2s7KvDL4/YHgKyvcS3g9CJQ==
@@ -4992,14 +4992,13 @@ gatsby-cli@^1.1.58:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-image@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.1.1.tgz#bbaca556dd90083fbc59d492807d12fb06435c42"
-  integrity sha512-MPmFDyF7Sj8yycMcA0ngFSHSDvO0PU6Flini3tDz58v1GOcyD9Ks8asaYaEhdZaauPfIKfXmun32G+QMtwaotw==
+gatsby-image@^1.0.55:
+  version "1.0.55"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-1.0.55.tgz#716c7f44d9949864c55331bd3316b751c94ca0c8"
+  integrity sha1-cWx/RNmUmGTFUzG9Mxa3UclMoMg=
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    object-fit-images "^3.2.4"
-    prop-types "^15.6.1"
+    babel-runtime "^6.26.0"
+    prop-types "^15.6.0"
 
 gatsby-link@^1.6.46:
   version "1.6.46"
@@ -5191,6 +5190,11 @@ gatsby-remark-embed-youtube@^0.0.7:
   dependencies:
     babel-runtime "^6.26.0"
     unist-util-visit "^1.1.3"
+
+gatsby-remark-emojis@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-emojis/-/gatsby-remark-emojis-0.3.2.tgz#5d8edb4e303dc9e05ee554d080dc486be6d3c810"
+  integrity sha512-IrRHau6xJeDAj766WuHv8LCBcKKaHMyhbYFlbIu2O1veOmTZ5mb/GnGz2raUr6MiAwRXXbUE0XQqWFMSZ1xr8w==
 
 gatsby-remark-external-links@^0.0.4:
   version "0.0.4"
@@ -8872,11 +8876,6 @@ object-copy@^0.1.0:
     copy-descriptor "^0.1.0"
     define-property "^0.2.5"
     kind-of "^3.0.3"
-
-object-fit-images@^3.2.4:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/object-fit-images/-/object-fit-images-3.2.4.tgz#6c299d38fdf207746e5d2d46c2877f6f25d15b52"
-  integrity sha512-G+7LzpYfTfqUyrZlfrou/PLLLAPNC52FTy5y1CBywX+1/FkxIloOyQXBmZ3Zxa2AWO+lMF0JTuvqbr7G5e5CWg==
 
 object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.0:
   version "1.1.1"
