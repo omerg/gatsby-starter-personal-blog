@@ -28,7 +28,6 @@ And what about macros when it comes to JavaScript? Is it possible that macros ca
  - [Proper Usage of Macros](#proper-usage-of-macros)
  - [A Little Bit of History](#a-little-bit-of-history)
  - [A Simple Macro](#a-simple-macro)
- - [Further Reading](#further-reading)
  
  <a name="proper-usage-of-macros"></a>
  ### Proper Usage of Macros
@@ -95,14 +94,3 @@ id ( 42 );
 With this simple example, we are now familiar with the JavaScirpt macro's. Macro's can have many uses; Some of them are rapid prototyping or algorithm, but macros definitely have the potential to offer you more. It's up to your imagination.
 
 [In the next post](/javascript-and-macro-usage-22) I will introduce some more advanced examples.
-
- <a name="further-reading"></a>
-### Further Reading
-
- - http://sweetjs.org/
- - https://github.com/mozilla/sweet.js
- - [Stop Writing JavaScript Compilers! Make Macros Instead](http://jlongster.com/Stop-Writing-JavaScript-Compilers--Make-Macros-Instead)
- - http://disnetdev.com/blog/2012/12/20/how-to-read-macros/
- - https://github.com/mozilla/sweet.js/wiki/Example-macros
- - http://sweetjs.org/browser/editor.html
- - http://www.paulgraham.com/onlisp.html
