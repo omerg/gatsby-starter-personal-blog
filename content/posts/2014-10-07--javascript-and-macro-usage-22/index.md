@@ -7,20 +7,9 @@ cover: js-cover.png
 
 ![Sweets](./patrick-fore-389419-unsplash.jpg)
 
-<a name="intro"></a>
-### Intro
-
-[In the previous post](/javascript-and-macro-usage-12), we studied some very simple examples of JavaScirpt macro structures. Macros can have many uses; Some of them write rapid prototyping or algorithm, but macros definitely have the potential to offer you more. It's up to your imagination.
-
+[In the previous post](/javascript-and-macro-usage-12), we studied some very simple examples of JavaScirpt macro structures. 
 Let's expand our examples a little more with a class notation example written in a macro:
 
- - [Intro](#intro)
- - [Example: Class Syntax](#example-class-syntax)
- - [Summary](#summary)
- - [Further Reading](#further-reading)
- - [Fun Stuff](#fun-stuff)
-
- <a name="example-class-syntax"></a>
 #### Example: Class Syntax
 
 Let's say you want to create a JavaScript class object. To do this with JavaScript, you can use the prototype feature to write the following code:
@@ -116,8 +105,6 @@ In the meantime, if you are interested in examples, you can review more Macros:
  - http://jlongster.com/Writing-Your-First-Sweet.js-Macro
  - http://jlongster.com/Compiling-JSX-with-Sweet.js-using-Readtables
  - https://mail.mozilla.org/pipermail/es-discuss/2008-August/006837.html
- - http://www.okanakyuz.com/lisp-notlari-giris/
- - http://blog.fatihak.in/sweet-js-ile-javascript-macrolar-a-giris/
  - https://github.com/Gozala/wisp
 
 <a name="fun-stuff"></a>
