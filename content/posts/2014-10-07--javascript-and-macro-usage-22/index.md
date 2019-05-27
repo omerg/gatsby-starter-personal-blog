@@ -7,16 +7,23 @@ cover: js-cover.png
 
 ![Sweets](./patrick-fore-389419-unsplash.jpg)
 
-### Giriş
+<a name="intro"></a>
+### Intro
 
-[Bir önceki yazıda](/javascript-and-macro-usage-12) ,basit örnekler ile JavaScirpt macro'larını yapısal olarak tanıdık. Macro'ların pek çok kullanım alanı olabilir; hızlı prototipleme ya da algoritma yazmak bunlardan bazıları, ama macro'lar kesinlikle size daha fazlasını sunabilecek potansiyele sahip. Burada iş tamamen sizin hayal gücünüze kalmış.
+[In the previous post](/javascript-and-macro-usage-12), we studied some very simple examples of JavaScirpt macro structures. Macros can have many uses; Some of them write rapid prototyping or algorithm, but macros definitely have the potential to offer you more. It's up to your imagination.
 
-Bu yazıda örneklerimizi biraz daha genişletelim:
+Let's expand our examples a little more with a class notation example written in a macro:
 
- <a name="ornek-class-syntax"></a>
-#### Örnek: Class Syntax
+ - [Intro](#intro)
+ - [Example: Class Syntax](#example-class-syntax)
+ - [Summary](#summary)
+ - [Further Reading](#further-reading)
+ - [Fun Stuff](#fun-stuff)
 
-Diyelim ki bir JavaScript nesnesi yaratmak istiyorsunuz. JavaScript ile bu işlemi yapmak için prototype alanını kullanarak aşağıdaki kodu yazarsınız:
+ <a name="example-class-syntax"></a>
+#### Example: Class Syntax
+
+Let's say you want to create a JavaScript class object. To do this with JavaScript, you can use the prototype feature to write the following code:
 
 ```javascript
 function Person(name) {
@@ -27,7 +34,7 @@ Person.prototype.say = function(msg) {
 }
 ```
 
-Yukarıda tanımlanan Person nesnesi ve "say" metodu, aşağıdaki gibi kullanılabilir:
+The Person object described above and the "say" method can then be used as follows:
 
 ```javascript
 var you = new Person("Omer");
@@ -37,13 +44,13 @@ you.say("I love JavaScript!");
 >Omer says: I love JavaScript!
 ```
 
-Peki aynı nesneyi "class" syntax'ı ile yazmak istersek? Bunun için üç seçeneğimiz var:
+So what if we want to write the same object with the "class" syntax? We have three options:
 
- 1. JavaScript'ten ayrılıp Java ile yazmaya devam etmek. (smile)
- 2. ES6 Standartlarının yaygınlaşmasını beklemek.
- 3. sweet.js kullanmak.
+ 1. Leave JavaScript and continue to write with Java. ( :smile: )
+ 2. Wait for ES6 Standards to become widespread.
+ 3. Using sweet.js !
 
-sweet.js sayesinde Java benzeri "class" sözdizimi kullanarak nesne oluşturmak isterseniz birkaç satırlık bir macro tanımlamanız yeterli:
+If you want to create an object using the Java-like "class" syntax with sweet.js, just define a few lines of macro:
 
 ```javascript
 macro class {
@@ -66,7 +73,7 @@ macro class {
 }
 ```
 
-İşte bu kadar. Artık JavaScript ile "class" tanımlayabilirsiniz:
+That's it. You can now define a "class" with JavaScript:
 
 ```javascript
 class Person {
@@ -84,17 +91,19 @@ Console:
 ```javascript
 >Omer says: Macros are sweet!
 ```
- <a name="sonuc"></a>
-### Sonuç
+ <a name="summary"></a>
+### Summary
 
-sweet.js in son derece güçlü bir araç olduğunu düşünüyorum ve açıkçası ilk gördüğümde JavaScript için geleceğine macro'ların yön verebileceği hissine kapıldım. Macro kavramı ile birlikte gündeme gelen Macro Hygiene konusunu ve macro kullanımının Google Closure Compiler ve benzeri derleyicilerin yerine geçme olasılığına başka bir yazıda değinebilirim. 
+I think sweet.js is an extremely powerful tool and, frankly, when I first saw it, I had the feeling that macros could give direction to the future for JavaScript. 
 
-Bu arada örnekler ilginizi çektiyse daha fazla Makro örneğini inceleyebilirsiniz:
+Macro Hygiene, which comes up with the concept of Macro, and the use of a macro to replace Google Closure Compiler and similar compilers can be mentioned in another article.
 
-> *(Listede yer alan tamamen muzurluk amaçlı yapılmış "Randomly Disappearing Code" macro örneğini şiddetle tavsiye ederim. :smiley: )
+In the meantime, if you are interested in examples, you can review more Macros:
 
- <a name="ilgili-yazilar"></a>
-### İlgili Yazılar
+> *(I highly recommend the macro Randomly Disappearing Code Random macro example, which is made entirely for fun. :smiley: )*
+
+ <a name="further-reading"></a>
+### Further Reading
 
  - http://sweetjs.org/
  - https://github.com/mozilla/sweet.js
@@ -109,10 +118,9 @@ Bu arada örnekler ilginizi çektiyse daha fazla Makro örneğini inceleyebilirs
  - https://mail.mozilla.org/pipermail/es-discuss/2008-August/006837.html
  - http://www.okanakyuz.com/lisp-notlari-giris/
  - http://blog.fatihak.in/sweet-js-ile-javascript-macrolar-a-giris/
-
-
-<a name="ilginizi-cekebilecek-diger-konular"></a>
-##### İlginizi Çekebilecek Diğer Konular
-
  - https://github.com/Gozala/wisp
+
+<a name="fun-stuff"></a>
+##### Fun Stuff
+
  - [StackOverflow - What is the worst real-world macros/pre-processor abuse you've ever come across?](http://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across)
