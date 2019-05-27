@@ -7,10 +7,20 @@ cover: js-cover.png
 
 ![Sweets](./patrick-fore-389419-unsplash.jpg)
 
+<a name="intro"></a>
+### Intro
+
 [In the previous post](/javascript-and-macro-usage-12), we studied some very simple examples of JavaScirpt macro structures. Macros can have many uses; Some of them write rapid prototyping or algorithm, but macros definitely have the potential to offer you more. It's up to your imagination.
 
 Let's expand our examples a little more with a class notation example written in a macro:
 
+ - [Intro](#intro)
+ - [Example: Class Syntax](#example-class-syntax)
+ - [Summary](#summary)
+ - [Further Reading](#further-reading)
+ - [Fun Stuff](#fun-stuff)
+
+ <a name="example-class-syntax"></a>
 #### Example: Class Syntax
 
 Let's say you want to create a JavaScript class object. To do this with JavaScript, you can use the prototype feature to write the following code:
