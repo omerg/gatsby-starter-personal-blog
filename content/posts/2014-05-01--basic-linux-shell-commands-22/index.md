@@ -5,7 +5,7 @@ category: "linux"
 cover: simon-abrams-286276-unsplash-cover.jpg
 ---
 
-We continue to examine the commands needed to use UNIX-based operating systems effectively. [In the previous post](/temel-linux-shell-komutlari-12/), we looked at the most essential file system navigation commands. We also looked at basic vim commands.
+We continue to examine the commands needed to use UNIX-based operating systems effectively. [In the previous post](/basic-linux-shell-commands-12/), we looked at the most essential file system navigation commands. We also looked at basic vim commands.
 
 In this post, I will be showing a few more commands for file manipulation.
 
