@@ -13,9 +13,9 @@ Here is a list of my projects
 
 ![Boxlin](./boxlin.png)
 
-Boxlin helps users to draw their own houses in 3D and decorate their interiors with 3D furniture models. The application is available at: https://www.boxlin.com . The project is built as a Progressive Web Application ( PWA ), meaning that it is accessible on web but acts as a fullscreen mobile application on mobile. The project is built with Angular 7.
+Boxlin helps users to draw their own houses in 3D and decorate their interiors with 3D furniture models. The application is available at: http://www.boxlin.com . The project is built as a Progressive Web Application ( PWA ), meaning that it is accessible on web but acts as a fullscreen mobile application on mobile. The project is built with Angular 7.
 
-[Try Here](https://www.boxlin.com/)
+[Try Here](http://www.boxlin.com/)
 
 ## STSI Holding Offer Management Application
 

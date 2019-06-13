@@ -13,7 +13,7 @@ My consultancy company is called LucidCode Ltd. I work as a self employed contra
 
 #### My Software Projects
 
-Boxlin Home Planner: My Side Project written in Angular + TypeScript: https://www.boxlin.com
+Boxlin Home Planner: My Side Project written in Angular + TypeScript: http://www.boxlin.com
 
 React Portfolio:
 Most of my work is built for private companies and their internal usage.
